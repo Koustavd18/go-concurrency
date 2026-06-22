@@ -14,7 +14,7 @@ func Test_balanceBank(t *testing.T) {
 
 	os.Stdout = w
 
-	main()
+	balaceBank()
 
 	_ = w.Close()
 
